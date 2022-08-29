@@ -4,6 +4,7 @@ import rightarr from '../assets/icon-angle-right.svg'
 import leftarr from '../assets/icon-angle-left.svg'
 import arr from '../assets/icon-arrow.svg'
 import bottomimg from '../assets/image-about-dark.jpg'
+import lbottomimg from '../assets/image-about-light.jpg'
 import './SlideOne.css'
 
 function SlideOne() {
@@ -32,6 +33,11 @@ function SlideOne() {
         </div>
         <div className='bottom-flex'>
             <img src ={bottomimg} alt="but-img"  className='bottom-left-img'/>
+            <div>
+                <h3>ABOUT OUR FURNITURE</h3>
+                <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything between. Product specialists are available to help create your dream space</p>
+            </div>
+            <img src ={lbottomimg} alt="but-img"  className='bottom-right-img'/>
         </div>
     </div>
     

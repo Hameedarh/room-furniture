@@ -5,14 +5,14 @@
 .container{
     display: flex;
     width: 100%;
-    height: 80%;
+    height: 70%;
 }
 .img-container{
     width: 60%;
 }
 .slide-1{
     position: absolute;
-    height: 80%;
+    height: 70%;
 }
 .navbar{
     position: relative;
@@ -29,13 +29,14 @@ span{
     display: flex;
     align-items: center;
     width: 40%;
-    height: 80%;
+    height: 70%;
 }
 .text-space{
     letter-spacing: 1em;
 }
 .bottom-flex{
     margin-top: 0px;
+    display: flex;
 }
 /* .arrow-div{
     display: flex;
